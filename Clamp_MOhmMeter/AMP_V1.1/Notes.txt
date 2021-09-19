@@ -1,0 +1,14 @@
+Micro:
+IC5A wrong feedback path
+add follower for VOUT_SENS signal
+change capacitors at active filter to 1206
+wrong connections at body_OV_sensor IC2B change + and -
+
+
+Macro:
+add differential output
+change current sensor to differential and connect low side of current sens resistors by wire(not to plane) to GND entry of board
+
+New ideas:
+change amplifier schematics: Q9 -> common base, add mirror instead of single Q12
+add shield to current sensor (mechanical)
